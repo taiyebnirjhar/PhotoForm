@@ -83,3 +83,11 @@
 .text-content {
   color: black !important;
 }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  /* background: #c1c1c1d4; */
+  border-radius: 3px;
+}
