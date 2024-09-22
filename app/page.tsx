@@ -213,7 +213,7 @@ const ScreenshotEditor = () => {
       (canvas) => {
         canvas.toBlob((blob) => {
           if (blob) {
-            saveAs(blob, "screenshot.png")
+            saveAs(blob, "generated-by-photo-form.png")
             setIsDownloading(false)
           }
         })
