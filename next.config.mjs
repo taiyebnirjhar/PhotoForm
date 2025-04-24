@@ -6,7 +6,7 @@ const nextConfig = {
   // },
   // output: "export",
   // distDir: "dist",
-  // images: { unoptimized: true },
+  images: { unoptimized: true },
   // reactStrictMode: false,
   // trailingSlash: true,
 }
